@@ -413,7 +413,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
@@ -431,7 +431,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -676,9 +676,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>modGRUBShell</string>
+				<string>OpenShell</string>
 				<key>Path</key>
-				<string>modGRUBShell.efi</string>
+				<string>OpenShell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -694,9 +694,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>ControlMsrE2</string>
+				<string>modGRUBShell</string>
 				<key>Path</key>
-				<string>ControlMsrE2.efi</string>
+				<string>modGRUBShell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
