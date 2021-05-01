@@ -28,7 +28,7 @@ cp -R download/drivers/* $OCFOLDER/Drivers/
 
 # Copy kexts
 cp -R download/kexts/* $OCFOLDER/Kexts/
-#cp -R src/Kexts/* $OCFOLDER/Kexts/
+cp -R src/Kexts/* $OCFOLDER/Kexts/
 
 # Copy OpenCore config
 cp src/config.plist $OCFOLDER/config.plist

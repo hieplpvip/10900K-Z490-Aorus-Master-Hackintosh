@@ -165,7 +165,7 @@
 				<key>device-id</key>
 				<data>cKEAAA==</data>
 				<key>layout-id</key>
-				<integer>11</integer>
+				<integer>7</integer>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>hda-idle-support</key>
@@ -176,35 +176,13 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>BwCbPg==</data>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>xZsAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-busid</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-flags</key>
-				<data>xwMAAA==</data>
-				<key>framebuffer-con0-index</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>BgAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-flags</key>
-				<data>xwMAAA==</data>
-				<key>framebuffer-con1-index</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAQAAA==</data>
 				<key>framebuffer-con2-busid</key>
 				<data>BAAAAA==</data>
 				<key>framebuffer-con2-enable</key>
@@ -217,20 +195,6 @@
 				<data>EgAAAA==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-con3-busid</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con3-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con3-flags</key>
-				<data>IAAAAA==</data>
-				<key>framebuffer-con3-index</key>
-				<data>/////w==</data>
-				<key>framebuffer-con3-pipe</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con3-type</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
 			<dict>
@@ -238,6 +202,11 @@
 				<data>8hUAAA==</data>
 				<key>model</key>
 				<string>Intel I225-V</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>acpi-wake-type</key>
+				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -471,7 +440,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -571,7 +540,7 @@
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
