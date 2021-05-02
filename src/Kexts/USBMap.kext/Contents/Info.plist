@@ -80,12 +80,12 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
@@ -143,12 +143,12 @@
 					</dict>
 					<key>HS12</key>
 					<dict>
-						<key>#port</key>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
 						<data>
 						DAAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>255</integer>
 					</dict>
 					<key>HS13</key>
 					<dict>

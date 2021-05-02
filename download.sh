@@ -60,7 +60,7 @@ download_github "acidanthera/HibernationFixup" "RELEASE" "acidanthera-Hibernatio
 download_github "acidanthera/NVMeFix" "RELEASE" "acidanthera-NVMeFix.zip"
 download_github "acidanthera/VirtualSMC" "RELEASE" "acidanthera-VirtualSMC.zip"
 download_github "acidanthera/WhateverGreen" "RELEASE" "acidanthera-WhateverGreen.zip"
-download_github "OpenIntelWireless/itlwm" "AirportItlwm-Big_Sur" "OpenIntelWireless-AirportItlwm.zip"
+download_github "OpenIntelWireless/itlwm" "stable_BigSur" "OpenIntelWireless-AirportItlwm.zip"
 download_github "OpenIntelWireless/IntelBluetoothFirmware" "IntelBluetooth" "OpenIntelWireless-IntelBluetoothFirmware.zip"
 download_RHM os-x-fake-pci-id RehabMan-FakePCIID
 cd ..
