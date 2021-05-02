@@ -32,10 +32,10 @@
 | USB 3.x              | Working           |
 | USB 2.0              | Working           |
 | HDMI Display Output  | Working           |
-| HDMI Audio           | Partially Working |
+| HDMI Audio           | Working           |
 | Built-in WiFi        | Partially Working |
-| Built-in Bluetooth   | Not working       |
-| Sleep                | Not working       |
+| Built-in Bluetooth   | Not Working       |
+| Sleep                | Working           |
 
 ## Instructions
 
@@ -45,14 +45,6 @@
 - Run `./download.sh` to download necessary kernel extensions
 - Run `./build.sh` to build EFI folder
 - Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) to create a USB with macOS installer. Use the `EFI` folder in `build`.
-
-#### Disable Sleep
-
-Sleep currently doesn't work yet. To disable sleep, run this command in Terminal:
-
-```shell
-sudo pmset -a sleep 0; sudo pmset -a hibernatemode 0; sudo pmset -a disablesleep 1;
-```
 
 #### Enable HiDPI
 

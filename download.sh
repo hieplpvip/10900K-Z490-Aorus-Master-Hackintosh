@@ -62,6 +62,7 @@ download_github "acidanthera/VirtualSMC" "RELEASE" "acidanthera-VirtualSMC.zip"
 download_github "acidanthera/WhateverGreen" "RELEASE" "acidanthera-WhateverGreen.zip"
 download_github "OpenIntelWireless/itlwm" "AirportItlwm-Big_Sur" "OpenIntelWireless-AirportItlwm.zip"
 download_github "OpenIntelWireless/IntelBluetoothFirmware" "IntelBluetooth" "OpenIntelWireless-IntelBluetoothFirmware.zip"
+download_RHM os-x-fake-pci-id RehabMan-FakePCIID
 cd ..
 
 # download drivers
@@ -69,7 +70,7 @@ mkdir ./drivers && cd ./drivers
 download_raw https://github.com/acidanthera/OcBinaryData/raw/master/Drivers/HfsPlus.efi HfsPlus.efi
 cd ..
 
-KEXTS="Lilu|AppleALC|CpuTscSync|IntelBluetooth|Itlwm|NVMeFix|WhateverGreen|VirtualSMC|SMCProcessor|SMCSuperIO|Fixup"
+KEXTS="Lilu|AppleALC|CpuTscSync|IntelBluetooth|Itlwm|NVMeFix|WhateverGreen|VirtualSMC|SMCProcessor|SMCSuperIO|FakePCIID.kext|FakePCIID_Intel_HDMI_Audio.kext|Fixup"
 
 function check_directory
 {
