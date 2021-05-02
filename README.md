@@ -31,6 +31,7 @@
 | CPU Power Management | Working           |
 | USB 3.x              | Working           |
 | USB 2.0              | Working           |
+| Audio                | Working           |
 | HDMI Display Output  | Working           |
 | HDMI Audio           | Working           |
 | Built-in WiFi        | Partially Working |
