@@ -163,7 +163,7 @@
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>BwAAAA==</data>
+				<integer>7</integer>
 				<key>device-id</key>
 				<data>cJ0AAA==</data>
 				<key>AAPL,slot-name</key>
@@ -179,8 +179,6 @@
 				<data>BwCbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>hda-gfx</key>
@@ -246,11 +244,6 @@
 				<data>8hUAAA==</data>
 				<key>model</key>
 				<string>Intel I225-V</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>acpi-wake-type</key>
-				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -778,7 +771,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-disablegfxfirmware -wegnoegpu agdpmod=pikera igfxonln=1 igfxfw=2</string>
+				<string>-wegnoegpu igfxonln=1 igfxrpsc=1 igfxfw=2</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
