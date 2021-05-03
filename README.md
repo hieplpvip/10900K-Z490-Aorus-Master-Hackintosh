@@ -35,7 +35,7 @@
 | HDMI Display Output  | Working           |
 | HDMI Audio           | Working           |
 | Built-in WiFi        | Partially Working |
-| Built-in Bluetooth   | Not Working       |
+| Built-in Bluetooth   | Working           |
 | Sleep                | Working           |
 
 ## Instructions
